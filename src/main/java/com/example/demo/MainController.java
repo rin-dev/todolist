@@ -26,7 +26,7 @@ public class MainController {
         return userRepo.findAll();
     }
 
-    @GetMapping("/uu")
+    @GetMapping("/u")
     public @ResponseBody
     Optional<User> getUserById(){
         return userRepo.findById(1);
